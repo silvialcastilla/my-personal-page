@@ -1,0 +1,25 @@
+{
+  "about": {
+    "title": "About me",
+    "description": "Desarrollo Web, Sociología y Recursos Humanos. Nunca me ha dado miedo nada y siempre he estado dispuesta a aprender. Por ello, tras estudiar la carrera de Sociología, el máster de Recursos Humanos y trabajar durante un año en departamentos de Selección y Formación, decidí dar un giro a mi carrera profesional y estudiar aquello por lo que siempre tuve curiosidad... ¡La programación! Descubrí que el Desarrollo Web era lo mio... Me encanta crear y esta profesión me lo permite. Así que, ¿qué esperas para tenerme en tu equipo?"
+  },
+  "studies": {
+    "title": "My Studies",
+    "description": [
+      { "name": "Web Developer", "description": "Herueioruioeru" },
+      { "name": "Sociology", "description": "Herueioruioeru" },
+      { "name": "Human Resources", "description": "Herueioruioeru" }
+    ]
+  },
+  "experience": {
+    "title": "My experience",
+    "description": [
+      { "name": "Deloite", "description": "Herueioruioeru" },
+      { "name": "Ayesa", "description": "Herueioruioeru" }
+    ]
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "You can contact me here"
+  }
+}
