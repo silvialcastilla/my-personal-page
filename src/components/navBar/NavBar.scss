@@ -1,0 +1,17 @@
+@import "../../scss/index.scss";
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  &_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    &-li {
+      text-decoration: none;
+      color: $secondary-color;
+      padding-left: 20px;
+    }
+  }
+}

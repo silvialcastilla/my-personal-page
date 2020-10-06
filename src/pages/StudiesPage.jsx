@@ -1,15 +1,16 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import information from "../utils/structure.json";
 
 import NavBar from "../components/navBar/NavBar";
 
 function StudiesPage() {
   return (
-    <>
-      <NavBar />
-      <h2>{information.studies.title}</h2>
-      <div>
+    <div className="studies-page">
+      <div className="studies-page_title">
+        <h2 className="studies-page_title-h2">{information.studies.title}</h2>
+        <NavBar />
+      </div>
+      <div className="studies-page_description">
         {information.studies.description.map((study, index) => {
           return (
             <div>
@@ -19,8 +20,7 @@ function StudiesPage() {
           );
         })}
       </div>
-      <img src={logo} className="App-logo" alt="logo" />
-    </>
+    </div>
   );
 }
 

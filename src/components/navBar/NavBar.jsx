@@ -1,24 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./NavBar.scss";
+
 function navBar() {
   return (
-    <nav>
-      <ul>
+    <nav className="nav-bar">
+      <ul className="nav-bar_list">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="nav-bar_list-li">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" className="nav-bar_list-li">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/studies">Studies</Link>
+          <Link to="/studies" className="nav-bar_list-li">
+            Studies
+          </Link>
         </li>
         <li>
-          <Link to="/experience">Experience</Link>
+          <Link to="/experience" className="nav-bar_list-li">
+            Experience
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" className="nav-bar_list-li">
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

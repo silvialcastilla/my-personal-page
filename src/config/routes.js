@@ -9,26 +9,31 @@ const routes = [
     path: "/",
     component: HomePage,
     exact: true,
+    className: "home-page",
   },
   {
     path: "/about",
     component: AboutPage,
     exact: false,
+    className: "about-page",
   },
   {
     path: "/studies",
     component: StudiesPage,
     exact: false,
+    className: "studies-page",
   },
   {
     path: "/experience",
     component: ExperiencePage,
     exact: false,
+    className: "experience-page",
   },
   {
     path: "/contact",
     component: ContactPage,
     exact: false,
+    className: "contact-page",
   },
 ];
 
