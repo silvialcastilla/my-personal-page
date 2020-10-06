@@ -13,15 +13,29 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    height: 500px;
+    width: $default-width;
+    height: $default-height;
+
     &-h2 {
       font-family: $font-title;
-      font-size: 180px;
+      font-size: 150px;
+      padding-top: 100px;
     }
   }
 
   &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
   }
 }
 
@@ -34,19 +48,37 @@
   align-items: center;
 
   &_title {
-    background-color: $about-color;
+    background-color: $studies-color;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    height: 500px;
+    width: $default-width;
+    height: $default-height;
     &-h2 {
       font-family: $font-title;
-      font-size: 180px;
+      font-size: 150px;
+      padding-top: 100px;
     }
   }
 
   &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+
+    h3 {
+      color: $studies-color;
+      font-family: $font-h3;
+    }
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
   }
 }
 
@@ -59,19 +91,36 @@
   align-items: center;
 
   &_title {
-    background-color: $about-color;
+    background-color: $experience-color;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    height: 500px;
+    width: $default-width;
+    height: $default-height;
     &-h2 {
       font-family: $font-title;
-      font-size: 180px;
+      font-size: 150px;
+      padding-top: 100px;
     }
   }
 
   &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
+    h3 {
+      color: $experience-color;
+      font-family: $font-h3;
+    }
   }
 }
 .contact-page {
@@ -83,18 +132,31 @@
   align-items: center;
 
   &_title {
-    background-color: $about-color;
+    background-color: $contact-color;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    height: 500px;
+    width: $default-width;
+    height: $default-height;
     &-h2 {
       font-family: $font-title;
-      font-size: 180px;
+      font-size: 150px;
+      padding-top: 100px;
     }
   }
 
   &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
   }
 }

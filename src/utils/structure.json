@@ -1,18 +1,40 @@
 {
   "about": {
     "title": "About me",
-    "description": "Desarrollo Web, Sociología y Recursos Humanos. Nunca me ha dado miedo nada y siempre he estado dispuesta a aprender. Por ello, tras estudiar la carrera de Sociología, el máster de Recursos Humanos y trabajar durante un año en departamentos de Selección y Formación, decidí dar un giro a mi carrera profesional y estudiar aquello por lo que siempre tuve curiosidad... ¡La programación! Descubrí que el Desarrollo Web era lo mio... Me encanta crear y esta profesión me lo permite. Así que, ¿qué esperas para tenerme en tu equipo?"
+    "description": "Web Development, Sociology and Human Resources. I have never been afraid of anything and I have always been willing to learn. For this reason, after studying a degree in Sociology, a master's degree in Human Resources, and working for a year in Selection and Training departments, I decided to turn my professional career around and study what I was always curious about ... Programming! ! I discovered that Web Development was my thing ... I love creating and this profession allows me to. So what are you waiting for to have me on your team?"
   },
   "studies": {
     "title": "My Studies",
     "description": [
-      { "name": "Web Developer", "description": "Herueioruioeru" },
-      { "name": "Sociology", "description": "Herueioruioeru" },
-      { "name": "Human Resources", "description": "Herueioruioeru" }
+      {
+        "name": "Web Developer",
+        "description": "Since I was little, computers had always been my hobby and after studying Sociology and Human Resources, I decided that it was time to get into that world. Why not? I always liked making web pages of blogs, gifs and I was excited to show them. I made the decision to make my hobby and my day to day my profession. Since I develop the small victories give meaning (and a lot of joy) to the hard work of the day to day, therefore, how can I say that this is not my ideal profession?"
+      },
+      {
+        "name": "Sociology",
+        "description": "Before becoming a developer and working in Human Resources, I studied Sociology. What better career than the one that let me learn everything I liked? There I learned different things like psychology, statistics, history, economics, urbanism ... In short, sociology. It was four years in which I discovered that I really liked learning and developing projects. That discovery determined my next choice: Human Resources."
+      },
+      {
+        "name": "Human Resources",
+        "description": "I decided to study Human Resources, again I gathered different areas that interested me. I developed numerous group projects, which allowed me to work at Deloitte, for the Selection and Training department and at Ayesa for the Selection Department."
+      }
     ]
   },
   "experience": {
     "title": "My experience",
+    "description": [
+      {
+        "name": "Recruiter in the Selection and Training Department at Deloitte",
+        "description": "Herueioruioeru"
+      },
+      {
+        "name": "Recruiter in the Selection Department at Ayesa",
+        "description": "Herueioruioeru"
+      }
+    ]
+  },
+  "kwnoledgesandprojects": {
+    "title": "My knowledges and projects",
     "description": [
       { "name": "Deloite", "description": "Herueioruioeru" },
       { "name": "Ayesa", "description": "Herueioruioeru" }
