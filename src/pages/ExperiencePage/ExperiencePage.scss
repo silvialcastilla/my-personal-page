@@ -1,0 +1,46 @@
+@import "../../scss/variables";
+
+.experience-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+
+  &_title {
+    background-color: $experience-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: $default-width;
+    height: $default-height;
+    &-h2 {
+      font-family: $font-title;
+      font-size: 150px;
+      padding-top: 100px;
+    }
+  }
+
+  &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+
+    &-div {
+      width: 80%;
+      p {
+        text-align: justify;
+        font-family: $font-p;
+      }
+      h3 {
+        color: $experience-color;
+        font-family: $font-h3;
+      }
+    }
+  }
+}

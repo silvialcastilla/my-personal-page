@@ -1,0 +1,46 @@
+@import "../../scss/variables";
+
+.knowandprojects-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+
+  &_title {
+    background-color: $knowledgesandprojects-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: $default-width;
+    height: $default-height;
+    &-h2 {
+      font-family: $font-title;
+      font-size: 150px;
+      padding-top: 100px;
+    }
+  }
+
+  &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+
+    &-div {
+      width: 80%;
+      h3 {
+        color: $knowledgesandprojects-color;
+        font-family: $font-h3;
+      }
+      p {
+        text-align: justify;
+        font-family: $font-p;
+      }
+    }
+  }
+}

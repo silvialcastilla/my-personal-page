@@ -1,0 +1,40 @@
+@import "../../scss/variables";
+
+.about-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+
+  &_title {
+    background-color: $about-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: $default-width;
+    height: $default-height;
+
+    &-h2 {
+      font-family: $font-title;
+      font-size: 150px;
+      padding-top: 100px;
+    }
+  }
+
+  &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
+  }
+}

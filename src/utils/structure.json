@@ -25,23 +25,26 @@
     "description": [
       {
         "name": "Recruiter in the Selection and Training Department at Deloitte",
-        "description": "Herueioruioeru"
+        "description": "In the selection department, I was in charge of the entire selection processes. It was a good way to learn to deal with different types of people. In the training department I was in charge of the preparation and logistics and their subsequent revision."
       },
       {
         "name": "Recruiter in the Selection Department at Ayesa",
-        "description": "Herueioruioeru"
+        "description": "There I was in charge of analyzing if people could fit in the position that was requested. Then I was in charge of carrying out the selection process."
       }
     ]
   },
   "kwnoledgesandprojects": {
     "title": "My knowledges and projects",
     "description": [
-      { "name": "Deloite", "description": "Herueioruioeru" },
-      { "name": "Ayesa", "description": "Herueioruioeru" }
+      {
+        "name": "Kwnoledges",
+        "description": "HTML5, CSS3, SASS, Bootstrap, Javascript, Ecmascript6, React.js, Node.js, Express.js, MongoDB, SQL, Firebase, GIT, Bash, Agile & Scrum, Responsive... "
+      },
+      { "name": "Projects", "description": "Herueioruioeru" }
     ]
   },
   "contact": {
     "title": "Contact me",
-    "description": "You can contact me here"
+    "description": "If you are interested in my projects you can visit my github or you want to contact me for any reason you can send me a message"
   }
 }

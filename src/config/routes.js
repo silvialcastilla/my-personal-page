@@ -1,8 +1,9 @@
-import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
-import StudiesPage from "../pages/StudiesPage";
-import ExperiencePage from "../pages/ExperiencePage";
-import ContactPage from "../pages/ContactPage";
+import HomePage from "../pages/HomePage/HomePage";
+import AboutPage from "../pages/AboutPage/AboutPage";
+import StudiesPage from "../pages/StudiesPage/StudiesPage";
+import ExperiencePage from "../pages/ExperiencePage/ExperiencePage";
+import KnowandProjectsPage from "../pages/KnowandProjectsPage/KnowandprojectsPage";
+import ContactPage from "../pages/ContactPage/ContactPage";
 
 const routes = [
   {
@@ -26,6 +27,12 @@ const routes = [
   {
     path: "/experience",
     component: ExperiencePage,
+    exact: false,
+    className: "experience-page",
+  },
+  {
+    path: "/knowledgesandprojects",
+    component: KnowandProjectsPage,
     exact: false,
     className: "experience-page",
   },

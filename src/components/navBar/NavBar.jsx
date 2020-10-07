@@ -28,6 +28,11 @@ function navBar() {
           </Link>
         </li>
         <li>
+          <Link to="/knowledgesandprojects" className="nav-bar_list-li">
+            Knowledges and Projects
+          </Link>
+        </li>
+        <li>
           <Link to="/contact" className="nav-bar_list-li">
             Contact
           </Link>

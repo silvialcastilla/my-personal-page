@@ -1,0 +1,46 @@
+@import "../../scss/variables";
+
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+
+  &_title {
+    background-color: $contact-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: $default-width;
+    height: $default-height;
+    &-h2 {
+      font-family: $font-title;
+      font-size: 150px;
+      padding-top: 100px;
+    }
+  }
+
+  &_description {
+    width: $default-width;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    p {
+      text-align: justify;
+      width: 80%;
+      font-family: $font-p;
+    }
+    &-email {
+      color: $contact-color;
+    }
+    &-image {
+      height: 50px;
+      padding-left: 40px;
+    }
+  }
+}
