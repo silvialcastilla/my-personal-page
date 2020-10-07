@@ -33,14 +33,21 @@
       }
     ]
   },
-  "kwnoledgesandprojects": {
-    "title": "My knowledges and projects",
+  "knowledges": {
+    "title": "My knowledges",
+    "description": "HTML5, CSS3, SASS, Bootstrap, Javascript, Ecmascript6, React.js, Node.js, Express.js, MongoDB, SQL, Firebase, GIT, Bash, Agile & Scrum, Responsive... "
+  },
+  "projects": {
+    "title": "My projects",
     "description": [
       {
-        "name": "Kwnoledges",
-        "description": "HTML5, CSS3, SASS, Bootstrap, Javascript, Ecmascript6, React.js, Node.js, Express.js, MongoDB, SQL, Firebase, GIT, Bash, Agile & Scrum, Responsive... "
+        "name": "Mappi",
+        "description": "A Web App."
       },
-      { "name": "Projects", "description": "Herueioruioeru" }
+      {
+        "name": "Your own page",
+        "description": "A Web App."
+      }
     ]
   },
   "contact": {

@@ -1,6 +1,6 @@
 @import "../../scss/variables";
 
-.knowandprojects-page {
+.knowledges-page {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -9,7 +9,7 @@
   align-items: center;
 
   &_title {
-    background-color: $knowledgesandprojects-color;
+    background-color: $knowledges-color;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -25,22 +25,15 @@
   &_description {
     width: $default-width;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: stretch;
     align-items: center;
-
-    &-div {
+    p {
+      text-align: justify;
       width: 80%;
-      h3 {
-        color: $knowledgesandprojects-color;
-        font-family: $font-h3;
-      }
-      p {
-        text-align: justify;
-        font-family: $font-p;
-      }
+      font-family: $font-p;
     }
   }
 }
