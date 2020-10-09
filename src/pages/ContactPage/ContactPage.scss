@@ -2,22 +2,20 @@
 
 .contact-page {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch;
-  align-items: center;
+  height: $default-height-mobile;
 
   &_title {
+    width: $default-width;
     background-color: $contact-color;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: $default-width;
-    height: $default-height;
+    align-items: center;
+
     &-h2 {
+      width: 90%;
       font-family: $font-title;
-      font-size: 150px;
+      font-size: 60px;
       padding-top: 100px;
     }
   }
@@ -26,9 +24,7 @@
     width: $default-width;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: stretch;
     align-items: center;
     p {
       text-align: justify;
@@ -41,6 +37,37 @@
     &-image {
       height: 50px;
       padding-left: 40px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-page {
+    &_title {
+      &-h2 {
+        font-size: 100px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-page {
+    height: $default-height;
+
+    &_title {
+      &-h2 {
+        font-size: 130px;
+      }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .contact-page {
+      &_title {
+        &-h2 {
+          font-size: 150px;
+        }
+      }
     }
   }
 }

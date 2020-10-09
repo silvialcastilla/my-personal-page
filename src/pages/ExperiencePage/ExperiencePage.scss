@@ -2,23 +2,22 @@
 
 .experience-page {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch;
-  align-items: center;
+  height: $default-height-mobile;
 
   &_title {
+    width: $default-width;
     background-color: $experience-color;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: $default-width;
-    height: $default-height;
+    align-items: center;
+
     &-h2 {
+      width: 90%;
       font-family: $font-title;
-      font-size: 150px;
+      font-size: 60px;
       padding-top: 100px;
+      text-align: center;
     }
   }
 
@@ -26,20 +25,49 @@
     width: $default-width;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: stretch;
     align-items: center;
 
     &-div {
       width: 80%;
+      h3 {
+        color: $experience-color;
+        font-family: $font-h3;
+      }
       p {
         text-align: justify;
         font-family: $font-p;
       }
-      h3 {
-        color: $experience-color;
-        font-family: $font-h3;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .experience-page {
+    &_title {
+      &-h2 {
+        font-size: 100px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .experience-page {
+    height: $default-height;
+
+    &_title {
+      &-h2 {
+        font-size: 130px;
+      }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .experience-page {
+      &_title {
+        &-h2 {
+          font-size: 150px;
+        }
       }
     }
   }

@@ -21,7 +21,7 @@ function ProjectsPage() {
         <div className="projects-page_description">
           {information.projects.description.map((projects, index) => {
             return (
-              <div className="projects-page_description-div">
+              <div className="projects-page_description-div" key={index}>
                 <h3>{projects.name}</h3>
                 <p>{projects.description}</p>
               </div>

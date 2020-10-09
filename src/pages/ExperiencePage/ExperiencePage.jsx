@@ -18,7 +18,7 @@ function Experience() {
         <div className="experience-page_description">
           {information.experience.description.map((experience, index) => {
             return (
-              <div className="experience-page_description-div">
+              <div className="experience-page_description-div" key={index}>
                 <h3>{experience.name}</h3>
                 <p>{experience.description}</p>
               </div>

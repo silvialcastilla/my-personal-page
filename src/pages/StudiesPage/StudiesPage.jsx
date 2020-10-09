@@ -19,7 +19,7 @@ function StudiesPage() {
       <div className="studies-page_description">
         {information.studies.description.map((study, index) => {
           return (
-            <div className="studies-page_description-div">
+            <div className="studies-page_description-div" key={index}>
               <Fade left>
                 <h3>{study.name}</h3>
               </Fade>

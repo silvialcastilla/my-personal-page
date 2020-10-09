@@ -1,23 +1,23 @@
 @import "../../scss/variables";
 
+@import "../../scss/variables";
+
 .knowledges-page {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch;
-  align-items: center;
+  height: $default-height-mobile;
 
   &_title {
+    width: $default-width;
     background-color: $knowledges-color;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: $default-width;
-    height: $default-height;
+    align-items: center;
+
     &-h2 {
+      width: 90%;
       font-family: $font-title;
-      font-size: 150px;
+      font-size: 60px;
       padding-top: 100px;
     }
   }
@@ -25,15 +25,44 @@
   &_description {
     width: $default-width;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: stretch;
     align-items: center;
+
     p {
       text-align: justify;
       width: 80%;
       font-family: $font-p;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .knowledges-page {
+    height: $default-height;
+
+    &_title {
+      &-h2 {
+        font-size: 100px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .knowledges-page {
+    &_title {
+      &-h2 {
+        font-size: 130px;
+      }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .knowledges-page {
+      &_title {
+        &-h2 {
+          font-size: 150px;
+        }
+      }
     }
   }
 }

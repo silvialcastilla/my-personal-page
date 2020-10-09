@@ -5,7 +5,7 @@ import NavBar from "../../components/navBar/NavBar";
 
 function HomePage() {
   return (
-    <div className="home-pages">
+    <div className="home-page">
       <Logo />
       <NavBar />
     </div>
