@@ -9,39 +9,14 @@
   &_list {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style-type: none;
     &-li {
       text-decoration: none;
       color: $secondary-color;
       padding-left: 20px;
       font-family: $font-nav;
-    }
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .nav-bar {
-    &_list {
-      display: flex;
-      flex-direction: column;
-      list-style-type: none;
-      &-li {
-        text-decoration: none;
-        color: $secondary-color;
-        padding-left: 20px;
-        font-family: $font-nav;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .nav-bar {
-    &_list {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
     }
   }
 }

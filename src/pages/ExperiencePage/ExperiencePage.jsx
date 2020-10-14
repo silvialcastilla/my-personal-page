@@ -1,6 +1,7 @@
 import React from "react";
 import information from "../../utils/structure.json";
 import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 import NavBar from "../../components/navBar/NavBar";
 import "./ExperiencePage.scss";
@@ -10,9 +11,11 @@ function Experience() {
     <div className="experience-page">
       <Slide bottom>
         <div className="experience-page_title">
+        <Fade left>
           <h2 className="experience-page_title-h2">
             {information.experience.title}
           </h2>
+          </Fade>
           <NavBar />
         </div>
         <div className="experience-page_description">

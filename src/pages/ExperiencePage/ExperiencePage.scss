@@ -3,9 +3,9 @@
 .experience-page {
   display: flex;
   height: $default-height-mobile;
+  flex-direction: column;
 
   &_title {
-    width: $default-width;
     background-color: $experience-color;
     text-align: center;
     display: flex;
@@ -16,13 +16,12 @@
       width: 90%;
       font-family: $font-title;
       font-size: 60px;
-      padding-top: 100px;
+      padding-top: 20px;
       text-align: center;
     }
   }
 
   &_description {
-    width: $default-width;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,10 +43,15 @@
 
 @media only screen and (min-width: 768px) {
   .experience-page {
+    flex-direction: row;
     &_title {
+      width: $default-width;
       &-h2 {
         font-size: 100px;
       }
+    }
+    &_description {
+      width: $default-width;
     }
   }
 }
